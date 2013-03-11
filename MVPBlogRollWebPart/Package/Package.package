@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" Id="32f7218f-d488-4107-9289-0c437b762eb2" solutionId="32f7218f-d488-4107-9289-0c437b762eb2" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" name="MVPBlogRollWebPart">
+    <features>
+        <featureReference itemId="08b7d589-b5aa-4525-a9bc-6fb349a02724" />
+    </features>
+</package>

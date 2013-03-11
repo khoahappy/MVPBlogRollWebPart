@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MVPBlogRollWebPart.VisualWebPart1.VisualWebPart1" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VisualWebPart1\VisualWebPart1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVPBlogRollWebPart.VisualWebPart1.VisualWebPart1UserControl" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>VisualWebPart1\VisualWebPart1UserControl.ascx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVPBlogRollWebPart.BlogRollDAO">
+    <Position X="8" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAIAAAgAAAAAAAKIAAAUAEAEACAAAIAAQAAAAAAAAg=</HashCode>
+      <FileName>Imp\Model\BlogRollDAO.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MVPBlogRollWebPart.Imp.Object.Post">
+    <Position X="4.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAgEAAEEAkAACAAQAAAAAAEgAAgAAAAAAIAA=</HashCode>
+      <FileName>Imp\Object\Post.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Comment" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MVPBlogRollWebPart.Imp.Object.Comment">
+    <Position X="4.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEEAAAAAAAAAAAAAAAAgAAAEAABAAAA=</HashCode>
+      <FileName>Imp\Object\Comment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MVPBlogRollWebPart.IBlogRollDAO">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAKIAAAUAEAEAAAAAIAAAAAAAAAAAg=</HashCode>
+      <FileName>Interface\IBlogRollDAO.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MVPBlogRollWebPart.IBlogRollPresenter">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEKAAAAAAAgAAAAAACAAAASAAAgEAQgAAAAAAAQ=</HashCode>
+      <FileName>Interface\IBlogRollPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MVPBlogRollWebPart.IBlogRollView">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\IBlogRollView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
